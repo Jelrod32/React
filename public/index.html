@@ -26,7 +26,10 @@
     -->
   <title>Sentry Demo</title>
 
+  <!-- Import SDK -->
   <script src="https://cdn.ravenjs.com/3.22.1/raven.min.js" crossorigin="anonymous"></script>
+
+  <!-- Configure SDK -->
   <script>
     Raven.config('https://16d9d866bdfa4695b8354fab94d23eea@sentry.io/1232461', {
       release: "%REACT_APP_RELEASE%"
